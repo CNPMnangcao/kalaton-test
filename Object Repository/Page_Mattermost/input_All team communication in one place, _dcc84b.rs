@@ -3,15 +3,15 @@
    <description></description>
    <name>input_All team communication in one place, _dcc84b</name>
    <tag></tag>
-   <elementGuidId>625fc9ea-dbaa-4e51-b182-e34eaf4a821c</elementGuidId>
+   <elementGuidId>2645a1a4-9fbb-48dd-ae30-ffbb770876c4</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='loginId']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#loginId</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='loginId']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Username_username</name>
    <tag></tag>
-   <elementGuidId>a4e6a0d0-863b-4b26-9207-04c0784398a6</elementGuidId>
+   <elementGuidId>21eb7dfe-f759-4218-b16f-ecbe5e06bb5c</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='username']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#username</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='username']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>usera</value>
+      <value>bindzo</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

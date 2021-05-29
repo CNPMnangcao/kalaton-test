@@ -3,15 +3,15 @@
    <description></description>
    <name>span</name>
    <tag></tag>
-   <elementGuidId>2ab54b99-ef94-44c2-bc26-f164ef3f4072</elementGuidId>
+   <elementGuidId>3093a078-4134-490e-ab8c-6c0ada841ddb</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='headerInfo']/button/span</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>button.style--none.sidebar-header-dropdown__icon > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='headerInfo']/button/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='@usera'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='@bindzo'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

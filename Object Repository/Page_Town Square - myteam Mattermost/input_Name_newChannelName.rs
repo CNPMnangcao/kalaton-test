@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Name_newChannelName</name>
    <tag></tag>
-   <elementGuidId>34cb1cff-52dc-453e-8dab-c546996716bb</elementGuidId>
+   <elementGuidId>a26d199c-22f4-4f77-a0e0-2ad022bb274b</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='newChannelName']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#newChannelName</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='newChannelName']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

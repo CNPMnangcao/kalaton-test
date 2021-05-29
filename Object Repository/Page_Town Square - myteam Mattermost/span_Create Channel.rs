@@ -3,15 +3,15 @@
    <description></description>
    <name>span_Create Channel</name>
    <tag></tag>
-   <elementGuidId>20c4f173-3aac-4854-ae44-6ad2482f2ad1</elementGuidId>
+   <elementGuidId>72729600-bf2f-42ca-b403-91f05a79d447</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//button[@id='submitNewChannel']/span</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#submitNewChannel > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='submitNewChannel']/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='OW'])[1]/following::span[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(optional)'])[2]/following::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div[2]/button[2]/span</value>
+      <value>//div[2]/button[2]/span</value>
    </webElementXpaths>
 </WebElementEntity>

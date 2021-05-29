@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>api call - getChannel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f61c8bd8-8944-45ab-8c10-3c1a66215949</testCaseGuid>
+</TestCaseEntity>

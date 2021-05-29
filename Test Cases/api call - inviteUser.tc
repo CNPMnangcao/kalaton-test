@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>api call - inviteUser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07ef41ef-4ac2-485e-9e03-2eabd68df1ba</testCaseGuid>
+</TestCaseEntity>

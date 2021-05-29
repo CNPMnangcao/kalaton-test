@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Account Settings</name>
    <tag></tag>
-   <elementGuidId>e79c42c1-9a00-4b28-b8f7-b496465875ea</elementGuidId>
+   <elementGuidId>e9f7d867-971f-4dbc-9abb-c5d4899109fb</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//li[@id='accountSettings']/button</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='accountSettings']/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -84,7 +84,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='@usera'])[1]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='@bindzo'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>api call - logout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb8146fd-e2a9-44f1-a49d-5ce88097a980</testCaseGuid>
+</TestCaseEntity>

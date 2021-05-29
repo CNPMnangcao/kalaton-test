@@ -3,15 +3,15 @@
    <description></description>
    <name>span_</name>
    <tag></tag>
-   <elementGuidId>93138960-d819-472a-af9d-94a64c15423d</elementGuidId>
+   <elementGuidId>53923a51-6c11-4d18-8fee-f8dce89a3412</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='createPublicChannel']/span</value>
+         <key>CSS</key>
+         <value>#createPrivateChannel > span</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#createPublicChannel > span</value>
+         <key>XPATH</key>
+         <value>//button[@id='createPrivateChannel']/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,13 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>new-group-tooltip</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,55 +42,48 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;createPublicChannel&quot;)/span[1]</value>
+      <value>id(&quot;createPrivateChannel&quot;)/span[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@id='createPublicChannel']/span</value>
+      <value>//button[@id='createPrivateChannel']/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='PUBLIC CHANNELS'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PRIVATE CHANNELS'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='More Unreads'])[2]/following::span[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More...'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Off-Topic'])[1]/preceding::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='abc'])[1]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Town Square'])[1]/preceding::span[5]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='+']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DIRECT MESSAGES'])[1]/preceding::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li/button/span</value>
+      <value>//ul[2]/li/button/span</value>
    </webElementXpaths>
 </WebElementEntity>
