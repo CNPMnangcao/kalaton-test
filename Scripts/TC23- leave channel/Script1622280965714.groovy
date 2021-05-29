@@ -19,20 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('TC015 - login success - string data'), [:])
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/svg'))
-if(WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/a_Jump'), 0)==true)
+if(WebUI.verifyElementPresent(findTestObject('Object Repository/Page_ABCDEHG - myteam Mattermost/span_ABCDEH'), 0) == true)
+
 {
-	WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/a_Jump'), 0)
-	
-	WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/a_Jump'))
-	
-	WebUI.setText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/textarea_Write to Town Square_post_textbox'),
-		'Y')
-	
+WebUI.click(findTestObject('Object Repository/Page_ABCDEHG - myteam Mattermost/span_ABCDEHG_channelHeaderDropdownIcon'))
 
-	
-
-	WebUI.setText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/textarea_Y'), 'Yeah I\'m alright')
-	
+WebUI.click(findTestObject('Object Repository/Page_ABCDEHG - myteam Mattermost/button_Leave Channel'))
 }
 
