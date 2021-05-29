@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCxxx</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1bd99051-f482-4b92-bcab-3c0453792d6c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5f1714b9-3fce-4c62-a208-8c769bb1b968</id>
+      <masked>false</masked>
+      <name>temp</name>
+   </variable>
+</TestCaseEntity>
