@@ -17,20 +17,13 @@
       <description></description>
       <id>6bea110f-de87-4625-ac02-b9d216eb26c7</id>
       <masked>false</masked>
-      <name>newpurpose</name>
+      <name>newPurpose</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>762eac5e-361d-45c0-8f41-3f1cde447e7b</id>
       <masked>false</masked>
-      <name>newoption</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>c388f26a-3216-43a5-8c54-2c6e95e73548</id>
-      <masked>false</masked>
-      <name>newsth</name>
+      <name>newOption</name>
    </variable>
 </TestCaseEntity>

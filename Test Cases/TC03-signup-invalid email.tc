@@ -10,20 +10,20 @@
       <description></description>
       <id>9d6b139b-b9f6-4a56-8087-39e9f524b1e2</id>
       <masked>false</masked>
-      <name>variable</name>
+      <name>email</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>8b158b9d-0f2f-4b29-804e-904f49a2aed9</id>
       <masked>false</masked>
-      <name>variable_0</name>
+      <name>username</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>02279a53-715f-4588-ae19-e337c00b59f2</id>
       <masked>false</masked>
-      <name>variable_1</name>
+      <name>password</name>
    </variable>
 </TestCaseEntity>

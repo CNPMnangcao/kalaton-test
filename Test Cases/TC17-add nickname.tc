@@ -10,6 +10,6 @@
       <description></description>
       <id>468f722a-c2b8-4a3a-827a-06e3cb87800c</id>
       <masked>false</masked>
-      <name>nickname</name>
+      <name>newnickname</name>
    </variable>
 </TestCaseEntity>

@@ -17,6 +17,13 @@
       <description></description>
       <id>be118667-1155-4b55-96e5-f27670727e89</id>
       <masked>false</masked>
-      <name>newPurposeName</name>
+      <name>newChannelPurpose</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ebdf3f69-d7a1-45d0-834c-702585424c12</id>
+      <masked>false</masked>
+      <name>newChannelHeader</name>
    </variable>
 </TestCaseEntity>
