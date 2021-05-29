@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f77c2900-0dab-470e-94f3-48e44500915e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>138bdb41-9341-44b0-b1a4-43c3c14577a4</id>
+      <masked>false</masked>
+      <name>emoji</name>
+   </variable>
 </TestCaseEntity>

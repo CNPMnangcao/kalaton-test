@@ -21,7 +21,6 @@ WebUI.callTestCase(findTestCase('TC015 - login success - string data'), [:])
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b (8)'))
 
-
 WebUI.navigateToUrl('https://immense-taiga-87644.herokuapp.com/')
 
 WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b (8)'), 
@@ -35,11 +34,5 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_Mattermost/input_All team 
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/button_Write to Town Square_emoji-picker__c_75e2dc'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/img_People_emoji-1f600'))
-
-WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/div_Beginning of Town SquareWelcome to Town_ec1f0e'))
-
-WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/p_grinning'))
-
-WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/span_grinning'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/img_People_emoji-1f600'+emoji))
 

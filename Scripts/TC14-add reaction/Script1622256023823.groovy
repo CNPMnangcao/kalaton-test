@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('TC015 - login success - string data'), [:])
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/svg'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/img_People_emoji-1f629'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/img_People_emoji-'+emoji))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/div_usera911 AMbindzo  hi bindzo1'))
+
 

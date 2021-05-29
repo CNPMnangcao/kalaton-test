@@ -25,5 +25,5 @@ WebUI.callTestCase(findTestCase('TC015 - login success - string data'), [:])
 WebUI.setText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/textarea_Write to Town Square_post_textbox (3)'), 
     '@')
 
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/textarea_ (2)'), newvariable)
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/textarea_ (2)'), '@'+username)
 

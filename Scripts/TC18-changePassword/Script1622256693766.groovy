@@ -17,18 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://immense-taiga-87644.herokuapp.com/')
-
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b (15)'), 
-    email)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6 (15)'), 
-    currentPassword)
-
-WebUI.sendKeys(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6 (15)'), 
-    Keys.chord(Keys.ENTER))
+WebUI.callTestCase(findTestCase('TC015 - login success - string data'), [:])
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/path'))
 

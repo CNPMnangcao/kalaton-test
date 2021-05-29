@@ -10,6 +10,6 @@
       <description></description>
       <id>a4116aba-981f-4e88-bdfa-fb520a666d65</id>
       <masked>false</masked>
-      <name>newvariable</name>
+      <name>username</name>
    </variable>
 </TestCaseEntity>
