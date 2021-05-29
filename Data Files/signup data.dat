@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>63ce2e86-7d11-4bf2-b7e0-304dc2defd9a</dataFileGUID>
-   <dataSourceUrl>C:\Users\Thuan\Desktop\signup.csv</dataSourceUrl>
+   <dataSourceUrl>source/signup.csv</dataSourceUrl>
    <driver>CSV</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName></sheetName>

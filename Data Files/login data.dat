@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>8c6aa25f-49c5-4891-bb85-edcb38b1c9af</dataFileGUID>
-   <dataSourceUrl>C:\Users\Thuan\Desktop\abc.csv</dataSourceUrl>
+   <dataSourceUrl>source/abc.csv</dataSourceUrl>
    <driver>CSV</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName></sheetName>

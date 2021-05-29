@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>e98a43d4-f43b-427c-a9ec-0b8d085710ff</dataFileGUID>
-   <dataSourceUrl>C:\Users\Thuan\Desktop\signup-invalidemail.csv</dataSourceUrl>
+   <dataSourceUrl>source/signup-invalidemail.csv</dataSourceUrl>
    <driver>CSV</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName></sheetName>
