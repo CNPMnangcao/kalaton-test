@@ -10,102 +10,279 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>5f034b24-866f-4247-8008-a3021b64e45e</testSuiteGuid>
+   <testSuiteGuid>30581a57-1507-4f13-9573-6d87395a827b</testSuiteGuid>
    <testCaseLink>
-      <guid>6376852c-8268-4174-9da6-9b0e2aae50d5</guid>
+      <guid>6743389f-ab7c-479d-b411-61df904eb0b3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC02-login fail-email invalid</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>3e559555-0480-42b8-b425-92f0fe9a26ee</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/signup data -invalid email</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>3e559555-0480-42b8-b425-92f0fe9a26ee</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>email</value>
-         <variableId>1a0cc18c-200b-4e1a-bbc2-f397344d5f16</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>3e559555-0480-42b8-b425-92f0fe9a26ee</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>username</value>
-         <variableId>49d72e74-6f27-455c-a13e-39543d7e0bfa</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>3e559555-0480-42b8-b425-92f0fe9a26ee</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>password</value>
-         <variableId>11638903-a1ef-433d-b060-436f8ddb6ef9</variableId>
-      </variableLink>
+      <testCaseId>Test Cases/api call - getChannel</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>10f4bed8-2902-41a3-bb77-2f6fb4d963ea</guid>
+      <guid>d8ca0998-b5c5-4c97-a9ea-ad2dfe84c928</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/api call - inviteUser</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>763992ee-4d5c-4111-8c4a-1ca09eb77c3e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/api call - login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7a8fca45-99eb-45c0-bfba-25a9c162af7c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/api call - logout</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f741f1fb-142c-4d54-9fcb-3a73da860a95</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/api call - post message</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e4306e63-b381-4f01-ac4a-4074fb7caf5b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/call by other - close Browser</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5cf9dc0e-0719-4f52-9eff-a438d932be8e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/call other - login multiple time</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fc807656-3be6-48f8-b4f6-b5d27e122857</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/call by other - navigate</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a141500a-7438-4377-a267-c05793bc73d5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/case statement 3</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aff1d759-c547-4bc4-a05c-485ec8f06656</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/case statement 2 - random number</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7a8f32d2-55e3-4b89-988f-863acdda5a30</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/case statement 4</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a3f49935-c562-4fd0-af5d-6babbb680a06</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/case statement 5</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0551c889-4463-4a61-8914-df9b43384ba9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/for while 2</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>903c3167-4951-47be-aa3c-3462eebccf3c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/case statement</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>48ea99dc-b2fb-4c07-8239-5b89b0cf6e26</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/for while 3</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>14432090-243a-4fed-8373-d51d120ccaf1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/for while 4</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8dd1add7-3047-40b5-94a3-d1314238812b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/for while 5</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9ea2bdb9-f355-4b90-afce-996358b6eb1a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/for while</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8a091fa7-8e95-4f72-b85c-3cbad6cb59a7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC01-login success</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>35cd2f29-c2cf-4c2e-aad2-f9ece85c0143</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/login data</testDataId>
-      </testDataLink>
       <variableLink>
-         <testDataLinkId>35cd2f29-c2cf-4c2e-aad2-f9ece85c0143</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>username</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>45f95189-abf1-4df2-9ec7-2ec20978c4c7</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>35cd2f29-c2cf-4c2e-aad2-f9ece85c0143</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>password</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>868b990f-3b92-4ea6-a342-d2a3e6cab808</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>8f864580-88ae-4bbc-b0ed-2077bee9b884</guid>
+      <guid>156545b6-f3d6-4f60-a623-c435a78f45e8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC20-signup with link-success</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>09de7f14-5184-459f-bc8f-ccdc72a5cdba</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/signup data</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/TC015 - login success - string data</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>855a944b-97e0-4f68-a356-d64e2054d36f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC02-login fail-email invalid</testCaseId>
       <variableLink>
-         <testDataLinkId>09de7f14-5184-459f-bc8f-ccdc72a5cdba</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>email</value>
-         <variableId>365ca396-26d5-4c80-b8c9-ac49655b7c58</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1a0cc18c-200b-4e1a-bbc2-f397344d5f16</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>09de7f14-5184-459f-bc8f-ccdc72a5cdba</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>username</value>
-         <variableId>f697de18-56fe-4923-b621-5b85827a92e3</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>49d72e74-6f27-455c-a13e-39543d7e0bfa</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>09de7f14-5184-459f-bc8f-ccdc72a5cdba</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>password</value>
-         <variableId>232ffdc5-282d-4916-8d93-d68a5e1103ba</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>11638903-a1ef-433d-b060-436f8ddb6ef9</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>7ca01698-f5a5-4ea6-aedf-1158689121fc</guid>
+      <guid>8cd6e4c2-6d1d-4a40-ad7d-ed001163e1b3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC03-signup-invalid email</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9d6b139b-b9f6-4a56-8087-39e9f524b1e2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8b158b9d-0f2f-4b29-804e-904f49a2aed9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>02279a53-715f-4588-ae19-e337c00b59f2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>23deef07-2774-49d1-85ac-cd927be886a6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC04-signup-prevent auto signup</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f7263793-c5f4-48fc-8e51-2b14d4bb1f81</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8419c6c3-08ea-4ee9-8841-7400109dce61</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1ff1d282-e5fb-48f7-914c-3785f982757e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2d94b4a1-1572-439f-aee9-f46409234d9d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC045-signup-samePassword</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>05be9643-b5fb-428f-9aaf-b3b70b0df6e9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC045-signup-sameUser</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ee5518f0-6ec2-48d4-9798-d2d456f36d37</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9800f872-984a-4b0a-aa39-b0f4ba6cf0f1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>acec00f7-9d15-4aff-a238-733df5ecc8e8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d31f90ec-cbaf-485a-8038-27911f8f3e61</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC05-mentionOtherUser</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a4116aba-981f-4e88-bdfa-fb520a666d65</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>11324f7a-6cde-4f36-85ae-b52cd7bcec95</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC06-create private channel</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>42c4e589-947a-4be1-b3fd-6d53744bf698</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6bea110f-de87-4625-ac02-b9d216eb26c7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>762eac5e-361d-45c0-8f41-3f1cde447e7b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b0be98a8-d04c-47c0-8c5c-e9fb62495310</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC07-create public channel</testCaseId>
@@ -121,98 +298,209 @@
          <value></value>
          <variableId>be118667-1155-4b55-96e5-f27670727e89</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>cfdaba20-eed3-4f9f-a327-2902c9b8a7e9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TC06-create private channel</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>4e02dd8a-0d6f-44e1-b6b1-bd11090a2a97</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/channel data</testDataId>
-      </testDataLink>
       <variableLink>
-         <testDataLinkId>4e02dd8a-0d6f-44e1-b6b1-bd11090a2a97</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>name</value>
-         <variableId>42c4e589-947a-4be1-b3fd-6d53744bf698</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>4e02dd8a-0d6f-44e1-b6b1-bd11090a2a97</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>purpose</value>
-         <variableId>6bea110f-de87-4625-ac02-b9d216eb26c7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>4e02dd8a-0d6f-44e1-b6b1-bd11090a2a97</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>option</value>
-         <variableId>762eac5e-361d-45c0-8f41-3f1cde447e7b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>4e02dd8a-0d6f-44e1-b6b1-bd11090a2a97</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>sth</value>
-         <variableId>c388f26a-3216-43a5-8c54-2c6e95e73548</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ebdf3f69-d7a1-45d0-834c-702585424c12</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>fddf4ae5-3358-47e2-9772-90a8a37f8b7d</guid>
+      <guid>768c8de5-051b-4d20-8c0f-4a3a9783c0fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC04-signup-prevent auto signup</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>ba3a3583-7df5-4254-bcae-69dc218513b7</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/signup data</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/TC08-set new header</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>13e5a304-62ee-42cc-989b-6ca838f76e61</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC09-mention people - fail</testCaseId>
       <variableLink>
-         <testDataLinkId>ba3a3583-7df5-4254-bcae-69dc218513b7</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>email</value>
-         <variableId>f7263793-c5f4-48fc-8e51-2b14d4bb1f81</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>ba3a3583-7df5-4254-bcae-69dc218513b7</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>username</value>
-         <variableId>8419c6c3-08ea-4ee9-8841-7400109dce61</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>ba3a3583-7df5-4254-bcae-69dc218513b7</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>password</value>
-         <variableId>1ff1d282-e5fb-48f7-914c-3785f982757e</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8551437c-5abc-4a4b-9f37-fbd24a1765e7</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>cb98f1cf-607c-4e12-a3bd-bf27a559d8a7</guid>
+      <guid>5aa2f35e-b65d-4000-9e98-eedf7bb33b6e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC05-mentionOtherUser</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>e234a3f7-ab8e-4098-a4d2-642a93c05f91</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/mention data</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/TC10-direct message</testCaseId>
       <variableLink>
-         <testDataLinkId>e234a3f7-ab8e-4098-a4d2-642a93c05f91</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>username</value>
-         <variableId>a4116aba-981f-4e88-bdfa-fb520a666d65</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1e0c92d1-f67c-4cd4-be75-2daf9bf32b03</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>78f9ee98-9994-4804-8902-8e356016ca33</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC12-invite member to team - copy link</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ccd9407d-63f6-422e-a96b-edce8dc4f4ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC13-search</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7158c91e-101e-4ad4-9c56-027bdbaa2203</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>582f5370-da9c-43f0-bdd8-c35dcaec6c63</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC16-account setting - edit username</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>10eda696-1b34-4749-ba0a-75e11cbad6dc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2d29f59b-a306-49a5-82e9-2cd0bd9ecf5f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC15-account setting-edit fullname</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f462c25e-1b1f-4e03-9b68-9c9a244c86b6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2a0e3a85-5fb3-4374-8c30-a45a1659d4f5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5b421471-261e-4bbf-a96d-9f725f035b72</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC17-add nickname</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>468f722a-c2b8-4a3a-827a-06e3cb87800c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8b58be9d-0c16-4549-b534-6799120d5edf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC19 - account setting - edit position</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5dcd23d7-008d-4016-b6da-350183658ad9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6941dd99-0cf5-4d49-9915-863ac2809d52</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC18-changePassword</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ea85fe8f-a01a-436a-8ae7-4587e97bb10e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>36353522-b741-4d8c-9240-51164461dcfe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>439f5cc5-2e6a-4d1d-b5b3-5c69126f07b7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6010c8c1-fabb-49a3-a221-7338d81bef24</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC20-signup with link-success</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>365ca396-26d5-4c80-b8c9-ac49655b7c58</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f697de18-56fe-4923-b621-5b85827a92e3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>232ffdc5-282d-4916-8d93-d68a5e1103ba</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>650193d3-8f32-4998-8b6f-9f8188df6250</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC22-mute and unmute</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d2fda1dc-da60-4323-bac9-fc4ef599f6f7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC21-if setheader</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>120bbd86-2480-4d5e-a684-221bbcb13144</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC23- add - leave channel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b33edc4c-450f-48b2-be1b-db5307c6541a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC23- leave channel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f45d6f80-ad57-4e84-a5bc-cbdcd1c182a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC24-reply</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7abb63bc-eb18-4c7f-a3de-3b60250bb760</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC25-add user</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fb4c1976-e381-44d1-b03d-8425d31d1fa2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TCxxx</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5f1714b9-3fce-4c62-a208-8c769bb1b968</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
