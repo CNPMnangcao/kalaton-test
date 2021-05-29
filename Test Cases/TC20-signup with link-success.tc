@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC20-signup with link-success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad35d4dd-525f-4358-baf0-f03af4d6ca8b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>365ca396-26d5-4c80-b8c9-ac49655b7c58</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f697de18-56fe-4923-b621-5b85827a92e3</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>232ffdc5-282d-4916-8d93-d68a5e1103ba</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

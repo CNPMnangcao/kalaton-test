@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC015 - login success - string data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebf0c794-3e40-401c-aee8-ef9469361f9e</testCaseGuid>
+</TestCaseEntity>

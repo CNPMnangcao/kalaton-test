@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07-create public channel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f40b75da-03d6-4c0d-b3dc-a2feaeb7f3d5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7b568233-bc1c-4c9c-9ccf-b8af4b227139</id>
+      <masked>false</masked>
+      <name>newChannelName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>be118667-1155-4b55-96e5-f27670727e89</id>
+      <masked>false</masked>
+      <name>newPurposeName</name>
+   </variable>
+</TestCaseEntity>

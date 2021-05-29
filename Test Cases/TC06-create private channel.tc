@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06-create private channel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5429e633-93a8-40fd-add5-f2701d76247e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>42c4e589-947a-4be1-b3fd-6d53744bf698</id>
+      <masked>false</masked>
+      <name>newChannelName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6bea110f-de87-4625-ac02-b9d216eb26c7</id>
+      <masked>false</masked>
+      <name>newpurpose</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>762eac5e-361d-45c0-8f41-3f1cde447e7b</id>
+      <masked>false</masked>
+      <name>newoption</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c388f26a-3216-43a5-8c54-2c6e95e73548</id>
+      <masked>false</masked>
+      <name>newsth</name>
+   </variable>
+</TestCaseEntity>

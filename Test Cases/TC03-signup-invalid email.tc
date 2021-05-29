@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03-signup-invalid email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8f91f29d-96bb-4179-a058-4b37752f1ba1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9d6b139b-b9f6-4a56-8087-39e9f524b1e2</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8b158b9d-0f2f-4b29-804e-904f49a2aed9</id>
+      <masked>false</masked>
+      <name>variable_0</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>02279a53-715f-4588-ae19-e337c00b59f2</id>
+      <masked>false</masked>
+      <name>variable_1</name>
+   </variable>
+</TestCaseEntity>

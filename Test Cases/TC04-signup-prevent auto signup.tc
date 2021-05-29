@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04-signup-prevent auto signup</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3b4e0944-8ffd-43cd-a220-d53392a60878</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f7263793-c5f4-48fc-8e51-2b14d4bb1f81</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8419c6c3-08ea-4ee9-8841-7400109dce61</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1ff1d282-e5fb-48f7-914c-3785f982757e</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

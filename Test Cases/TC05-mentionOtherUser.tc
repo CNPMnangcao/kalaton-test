@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05-mentionOtherUser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>356bd790-7dad-4077-9b6e-397c5cb21e75</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a4116aba-981f-4e88-bdfa-fb520a666d65</id>
+      <masked>false</masked>
+      <name>newvariable</name>
+   </variable>
+</TestCaseEntity>
