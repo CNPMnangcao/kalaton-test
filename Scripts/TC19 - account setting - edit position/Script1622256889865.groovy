@@ -17,18 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://immense-taiga-87644.herokuapp.com/')
-
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b (16)'), 
-    'kaitouthuan@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6 (16)'), 
-    '5WbaaGOlRjI=')
-
-WebUI.sendKeys(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6 (16)'), 
-    Keys.chord(Keys.ENTER))
+WebUI.callTestCase(findTestCase('TC015 - login success - string data'), [:])
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/button_userb_style--none sidebar-header-dro_852242 (1)'))
 
@@ -40,7 +29,7 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermo
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/span_Edit (4)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/input_Position_position'), 'new job')
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/input_Position_position'), newjob)
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/span_Save (3)'))
 

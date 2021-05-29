@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC02-login fail-email invalid</name>
+   <name>TC045-signup-sameUser</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>46987a7b-7afa-4022-90da-adc03d712185</testCaseGuid>
+   <testCaseGuid>a08a7eaf-8499-48ce-8f5c-e47e269a069a</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>1a0cc18c-200b-4e1a-bbc2-f397344d5f16</id>
+      <id>ee5518f0-6ec2-48d4-9798-d2d456f36d37</id>
       <masked>false</masked>
       <name>email</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>49d72e74-6f27-455c-a13e-39543d7e0bfa</id>
+      <id>9800f872-984a-4b0a-aa39-b0f4ba6cf0f1</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>11638903-a1ef-433d-b060-436f8ddb6ef9</id>
+      <id>acec00f7-9d15-4aff-a238-733df5ecc8e8</id>
       <masked>false</masked>
       <name>password</name>
    </variable>

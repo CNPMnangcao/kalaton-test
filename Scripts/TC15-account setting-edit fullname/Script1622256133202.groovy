@@ -29,11 +29,11 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermo
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/span_Edit'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/input_First Name_firstName'), 'abc')
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/input_First Name_firstName'), firstname)
 
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/input_Last Name_lastName'), 'def')
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/input_Last Name_lastName'), lastname)
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/span_Save'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/div_abc def'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/div_'+firstname+' '+lastname))
 

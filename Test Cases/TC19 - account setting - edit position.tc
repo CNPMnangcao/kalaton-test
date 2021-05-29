@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f2de404e-4df2-4b27-b885-431ed398ec41</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5dcd23d7-008d-4016-b6da-350183658ad9</id>
+      <masked>false</masked>
+      <name>newJob</name>
+   </variable>
 </TestCaseEntity>

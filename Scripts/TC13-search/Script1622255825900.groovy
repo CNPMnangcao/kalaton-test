@@ -20,11 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('TC015 - login success - string data'), [:])
 WebUI.click(findTestObject('Object Repository/Page_Off-Topic - myteam Mattermost/span_Off-Topic'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Off-Topic - myteam Mattermost/input_(Edit)_searchBox'), 'FROM: @b')
-
-WebUI.click(findTestObject('Object Repository/Page_Off-Topic - myteam Mattermost/div_bindzo'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Off-Topic - myteam Mattermost/input_(Edit)_searchBox'), 'FROM: bindzo ')
+WebUI.setText(findTestObject('Object Repository/Page_Off-Topic - myteam Mattermost/input_(Edit)_searchBox'), 'FROM: '+username)
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_Off-Topic - myteam Mattermost/input_(Edit)_searchBox'), Keys.chord(
         Keys.ENTER))

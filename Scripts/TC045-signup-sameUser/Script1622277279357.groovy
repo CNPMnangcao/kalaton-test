@@ -17,15 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC015 - login success - string data'), [:])
-WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/span_surveybot'))
+WebUI.openBrowser('')
 
+WebUI.navigateToUrl('https://immense-taiga-87644.herokuapp.com/signup_email')
 
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_concat(What, , s your email address)_email (6)'), 
+    email)
 
-WebUI.click(findTestObject('Page_surveybot - myteam Mattermost/span_bindzo'))
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Choose your username_name (6)'), username)
 
-WebUI.setText(findTestObject('Object Repository/Page_bindzo - myteam Mattermost/textarea_Write to bindzo_post_textbox'), 
-    content)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_Choose your password_password (6)'), password)
 
-
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Create Account (5)'))
 

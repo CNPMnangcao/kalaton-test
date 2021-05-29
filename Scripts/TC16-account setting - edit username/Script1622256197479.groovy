@@ -26,7 +26,7 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermo
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/span_Edit (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/input_Username_username'), 'userb')
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/input_Username_username'), username)
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/span_Save (1)'))
 

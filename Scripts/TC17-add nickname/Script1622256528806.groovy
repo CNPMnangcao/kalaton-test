@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermo
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/span_Edit (2)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/input_Nickname_nickname'), 'new nickname')
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/input_Nickname_nickname'), newnickname)
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/span_Save (2)'))
 
@@ -40,7 +40,5 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermo
 WebUI.setText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/textarea_Write to Town Square_post_textbox (2)'), 
     'a')
 
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/textarea_a'), 'ad')
 
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/textarea_ad'), 'ade')
 

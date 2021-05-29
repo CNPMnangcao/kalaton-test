@@ -22,10 +22,10 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://immense-taiga-87644.herokuapp.com/')
 
 WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b (15)'), 
-    'kaitouthuan@gmail.com')
+    email)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6 (15)'), 
-    'ye6DZnOjkYuKpIJq7wm9kA==')
+    currentPassword)
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6 (15)'), 
     Keys.chord(Keys.ENTER))
@@ -39,13 +39,13 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermo
 WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/span_Edit (3)'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/input_Current Password_currentPassword'), 
-    'ye6DZnOjkYuKpIJq7wm9kA==')
+    currentpassword)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/input_New Password_newPassword'), 
-    '5WbaaGOlRjI=')
+    newpassword)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/input_Retype New Password_confirmPassword'), 
-    '5WbaaGOlRjI=')
+    newpassword)
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/button_Save (1)'))
 
@@ -56,10 +56,10 @@ WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermo
 WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/button_Log Out (1)'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _dcc84b (15)'), 
-    'kaitouthuan@gmail.com')
+    email)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place, _a3edc6 (15)'), 
-    '5WbaaGOlRjI=')
+    newpassword)
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in (4)'))
 

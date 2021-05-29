@@ -34,7 +34,7 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_Mattermost/input_All team 
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/span_Town Square_channelHeaderDropdownIcon'))
 
-if (WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/span_Town Square_channelHeaderDropdownIcon'), 0)) {
+if (WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/span_Town Square_channelHeaderDropdownIcon'), 0)==true) {
     WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/span_Edit Channel Header'))
 
     WebUI.setText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/textarea_new header01'), 'new header0')
@@ -45,14 +45,7 @@ if (WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_Town Sq
     WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/div_new header02new header02'))
 }
 else {
-	WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/span_Edit Channel Header'))
 	
-		WebUI.setText(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/textarea_new header01'), 'new header0')
-	
-		
-		WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/span_Save (4)'))
-	
-		WebUI.click(findTestObject('Object Repository/Page_Town Square - myteam Mattermost/div_new header02new header02'))
 }
 
 

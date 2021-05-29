@@ -12,36 +12,36 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>5f034b24-866f-4247-8008-a3021b64e45e</testSuiteGuid>
    <testCaseLink>
-      <guid>fddf4ae5-3358-47e2-9772-90a8a37f8b7d</guid>
+      <guid>6376852c-8268-4174-9da6-9b0e2aae50d5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC04-signup-prevent auto signup</testCaseId>
+      <testCaseId>Test Cases/TC02-login fail-email invalid</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>ba3a3583-7df5-4254-bcae-69dc218513b7</id>
+         <id>3e559555-0480-42b8-b425-92f0fe9a26ee</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/signup data</testDataId>
+         <testDataId>Data Files/signup data -invalid email</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>ba3a3583-7df5-4254-bcae-69dc218513b7</testDataLinkId>
+         <testDataLinkId>3e559555-0480-42b8-b425-92f0fe9a26ee</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>email</value>
-         <variableId>f7263793-c5f4-48fc-8e51-2b14d4bb1f81</variableId>
+         <variableId>1a0cc18c-200b-4e1a-bbc2-f397344d5f16</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ba3a3583-7df5-4254-bcae-69dc218513b7</testDataLinkId>
+         <testDataLinkId>3e559555-0480-42b8-b425-92f0fe9a26ee</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
-         <variableId>8419c6c3-08ea-4ee9-8841-7400109dce61</variableId>
+         <variableId>49d72e74-6f27-455c-a13e-39543d7e0bfa</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ba3a3583-7df5-4254-bcae-69dc218513b7</testDataLinkId>
+         <testDataLinkId>3e559555-0480-42b8-b425-92f0fe9a26ee</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
-         <variableId>1ff1d282-e5fb-48f7-914c-3785f982757e</variableId>
+         <variableId>11638903-a1ef-433d-b060-436f8ddb6ef9</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -159,6 +159,60 @@
          <type>DATA_COLUMN</type>
          <value>sth</value>
          <variableId>c388f26a-3216-43a5-8c54-2c6e95e73548</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fddf4ae5-3358-47e2-9772-90a8a37f8b7d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC04-signup-prevent auto signup</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ba3a3583-7df5-4254-bcae-69dc218513b7</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/signup data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ba3a3583-7df5-4254-bcae-69dc218513b7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>f7263793-c5f4-48fc-8e51-2b14d4bb1f81</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ba3a3583-7df5-4254-bcae-69dc218513b7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>8419c6c3-08ea-4ee9-8841-7400109dce61</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ba3a3583-7df5-4254-bcae-69dc218513b7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>1ff1d282-e5fb-48f7-914c-3785f982757e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cb98f1cf-607c-4e12-a3bd-bf27a559d8a7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC05-mentionOtherUser</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e234a3f7-ab8e-4098-a4d2-642a93c05f91</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/mention data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e234a3f7-ab8e-4098-a4d2-642a93c05f91</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>a4116aba-981f-4e88-bdfa-fb520a666d65</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

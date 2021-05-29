@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ea933337-d723-4b12-b709-75062199ad6e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>468f722a-c2b8-4a3a-827a-06e3cb87800c</id>
+      <masked>false</masked>
+      <name>nickname</name>
+   </variable>
 </TestCaseEntity>

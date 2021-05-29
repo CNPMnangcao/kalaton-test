@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://immense-taiga-87644.herokuapp.com/signup_email')
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_concat(What, , s your email address)_email'), 'jhsu')
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_concat(What, , s your email address)_email'), email)
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Choose your username_name'), '123')
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Choose your username_name'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_Choose your password_password'), 'CFIo7qV34A0=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Mattermost/input_Choose your password_password'), password)
 
 WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Create Account'))
 
